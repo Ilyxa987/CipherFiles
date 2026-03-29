@@ -19,10 +19,33 @@
         android:hint="@string/passwordtext"
         android:inputType="textPassword"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnAuth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="@string/authbtntext" />
+
+        <Button
+            android:id="@+id/btnReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="@string/regbtntext" />
+
+    </LinearLayout>
+
     <Button
-        android:id="@+id/btnAuth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/authbtntext" />
+        android:text="@string/bioauthbtn"
+        android:id="@+id/bioauthbtn"/>
 
 </LinearLayout>

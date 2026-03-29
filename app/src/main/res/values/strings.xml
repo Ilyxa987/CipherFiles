@@ -3,4 +3,6 @@
     <string name="logintext">Введите логин</string>
     <string name="passwordtext">Введите пароль</string>
     <string name="authbtntext">Войти</string>
+    <string name="regbtntext">Зарегистрироваться</string>
+    <string name="bioauthbtn">Войти по отпечатку</string>
 </resources>
